@@ -1,0 +1,69 @@
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+body {
+   
+    width: 100vw;
+    height: 100vh;
+    /*top: 100;
+    left: 0;*/
+    background-color: #D6E5FA;
+   /* position: relative;*/
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png");
+display: inline;    
+}
+    
+table {
+    border-collapse: collapse;
+    margin: 15px 10;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 900px;
+    /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);*/
+    margin: 50px;
+}
+ tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+ tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+tr:nth-of-type(odd) {
+    background-color: #EED7CE;
+}
+
+ tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+th,td {
+font-family: 'Anton', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Titillium Web', sans-serif;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    color: black;
+    
+}
+td{
+    font-weight: 100px;
+}
+
+
+
+#submit,#generate{
+    margin-left:40px;
+}
+
+  
+label{
+    color: red;
+    margin: 10px;
+    margin-top: 20px;
+}
