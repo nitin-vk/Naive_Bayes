@@ -11,17 +11,17 @@ let rsalary=document.querySelector('#refsalary')
 let rstudent=document.querySelector('#refstudent')
 let rcredit=document.querySelector('#refcredit')
 let rcomputer=document.querySelector('#refcomputer')
-/*let agearr=[]
+let agearr=[]
 let salaryarr=[]
 let studentarr=[]
 let creditarr=[]
-let computerarr=[]*/
+let computerarr=[]
 
-let agearr=['<=30','<=30','31-40','>40','>40','>40','31-40','<=30','<=30','>40','<=30','31-40','31-40','>40']
+/*let agearr=['<=30','<=30','31-40','>40','>40','>40','31-40','<=30','<=30','>40','<=30','31-40','31-40','>40']
 let salaryarr=['HIGH','HIGH','HIGH','MEDIUM','LOW','LOW','LOW','MEDIUM','LOW','MEDIUM','MEDIUM','MEDIUM','HIGH','MEDIUM']
 let studentarr=['NO','NO','NO','NO','YES','YES','YES','NO','YES','YES','YES','NO','YES','NO']
 let creditarr=['FAIR','EXCELLENT','FAIR','FAIR','FAIR','EXCELLENT','EXCELLENT','FAIR','FAIR','FAIR','EXCELLENT','EXCELLENT','FAIR','EXCELLENT']
-let computerarr=['NO','NO','YES','YES','YES','NO','YES','NO','YES','YES','YES','YES','YES','NO']
+let computerarr=['NO','NO','YES','YES','YES','NO','YES','NO','YES','YES','YES','YES','YES','NO']*/
 
 let yes=0
 let no=0
@@ -42,7 +42,7 @@ let refno=0
 but1.onclick=function()
 {
     //console.log('clicked')
-    /*let tr=document.createElement('tr')
+    let tr=document.createElement('tr')
     let tdage=document.createElement('td')
     let tdsalary=document.createElement('td')
     let tdstudent=document.createElement('td')
@@ -63,7 +63,7 @@ but1.onclick=function()
     salaryarr.push(salary.value.toUpperCase())
     studentarr.push(student.value.toUpperCase())
     creditarr.push(credit.value.toUpperCase())
-    computerarr.push(computer.value.toUpperCase())*/
+    computerarr.push(computer.value.toUpperCase())
     //console.log(studentarr)
    
     
@@ -139,14 +139,14 @@ but2.onclick=function()
     refcreditno=refcreditno/no
     refyes=refageyes*refsalaryyes*refstudentyes*refcredityes*yesratio
     refno=refageno*refsalaryno*refstudentno*refcreditno*noratio
-    console.log(refageyes)
+    /*console.log(refageyes)
     console.log(refageno)
     console.log(refsalaryyes)
     console.log(refsalaryno)
     console.log(refstudentyes)
     console.log(refstudentno)
     console.log(refcredityes)
-    console.log(refcreditno)
+    console.log(refcreditno)*/
     
     
     
